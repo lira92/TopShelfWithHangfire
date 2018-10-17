@@ -19,7 +19,7 @@ namespace TopShelfWithHangfire.Service
                 });
                 configure.RunAsNetworkService();
                 configure.SetServiceName("TopShelfWithHangfireService");
-                configure.SetServiceName("TopShelfWithHangfireService");
+                configure.SetDisplayName("TopShelfWithHangfireService");
                 configure.SetDescription("Top Shelf Service example with hangfire");
             });
         }
